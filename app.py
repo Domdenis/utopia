@@ -224,7 +224,7 @@ with st.sidebar:
 st.markdown("""
 <div class="hero">
     <div class="version">Réforme VPH — Décembre 2025</div>
-    <h1>UtoIA</h1>
+    <h1>UtopIA</h1>
     <p>Agent IA d'aide à la préconisation de Véhicules pour Personnes Handicapées.<br>
     Du recueil des besoins à l'argumentaire CPAM, guidé par l'OTIPM.</p>
 </div>
