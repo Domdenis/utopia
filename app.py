@@ -130,7 +130,7 @@ if "rag_status" not in st.session_state:
 
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.markdown("## 🦽 Ergotech")
+    st.markdown("## 🦽 UtopIA")
     st.markdown("*Agent IA — Préconisation VPH*")
     st.divider()
 
@@ -224,7 +224,7 @@ with st.sidebar:
 st.markdown("""
 <div class="hero">
     <div class="version">Réforme VPH — Décembre 2025</div>
-    <h1>Ergotech</h1>
+    <h1>UtoIA</h1>
     <p>Agent IA d'aide à la préconisation de Véhicules pour Personnes Handicapées.<br>
     Du recueil des besoins à l'argumentaire CPAM, guidé par l'OTIPM.</p>
 </div>
@@ -250,7 +250,7 @@ if not st.session_state.get("api_key") or st.session_state.rag_status != "ready"
         """)
     with col2:
         st.markdown("""
-        **Ce que fait Ergotech :**
+        **Ce que fait UtopIA :**
         - 📋 Guide le recueil structuré Personne / Environnement / Occupation
         - 🧭 Sélectionne automatiquement le modèle conceptuel adapté (MCREO, PEO, MOH, MCPO)
         - 📄 Rédige le diagnostic ergothérapique
