@@ -1,5 +1,5 @@
 """
-Ergotech — Application principale
+UtopIA — Application principale
 Point d'entrée Streamlit — Page d'accueil + initialisation RAG
 """
 
@@ -8,7 +8,7 @@ import os
 from graph.state import PatientState
 
 st.set_page_config(
-    page_title="Ergotech — Préconisation VPH",
+    page_title="UtopIA — Préconisation VPH",
     page_icon="🦽",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -252,7 +252,7 @@ if not st.session_state.get("api_key") or st.session_state.rag_status != "ready"
         st.markdown("""
         **Ce que fait Ergotech :**
         - 📋 Guide le recueil structuré Personne / Environnement / Occupation
-        - 🧭 Sélectionne automatiquement le modèle conceptuel adapté (MCREO, PEO, MOHO)
+        - 🧭 Sélectionne automatiquement le modèle conceptuel adapté (MCREO, PEO, MOH, MCPO)
         - 📄 Rédige le diagnostic ergothérapique
         - 🦽 Recherche les AT selon le profil et la nomenclature VPH 2025
         - 📑 Génère l'argumentaire CPAM normé
